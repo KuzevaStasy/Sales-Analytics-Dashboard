@@ -127,10 +127,3 @@ This project demonstrates practical skills in:
 
 It is intended as a **portfolio project for Data Analyst / Business Analyst roles**.
 
----
-
-# 📌 Author
-
-Stanislava Kuzeva
-
-GitHub: https://github.com/KuzevaStasy
