@@ -1,26 +1,38 @@
 # 📊 Sales Analytics Dashboard
 
-Interactive Sales Analytics Dashboard built with **Python**, **Pandas**, **Plotly**, and **Streamlit**.
+Interactive **Business Intelligence dashboard** built with Python to analyze sales performance across regions, products, and customer segments.
 
-This project analyzes sales data and visualizes key business metrics such as revenue, profit, customer segments, and sales performance.
+The dashboard provides key business metrics, trend analysis, and interactive filtering to explore sales insights.
 
 ---
 
 # 🚀 Project Overview
 
-The dashboard provides insights into sales performance across different regions, products, channels, and customer segments.
+This project demonstrates how Python can be used to build a **data analytics dashboard** similar to BI tools like Power BI or Tableau.
 
-It includes:
+The dashboard analyzes sales data and provides insights into:
 
-* Revenue analysis
-* Profit and profit margin calculations
-* Sales trends over time
-* Top performing sales representatives
-* Customer segment analysis
-* Sales heatmap
-* Revenue forecasting
+* revenue performance
+* product category trends
+* customer segmentation
+* sales channels
+* top performing sales representatives
+* profit and profit margin
+* revenue forecasting
 
-The dashboard allows users to filter data dynamically and explore sales insights interactively.
+Users can dynamically filter the dashboard by region, product category, customer type, and sales channel.
+
+---
+
+# 📊 Dashboard Preview
+
+### Overview
+
+![Dashboard Overview](images/dashboard1.png)
+
+### Advanced Analytics
+
+![Dashboard Analytics](images/dashboard2.png)
 
 ---
 
@@ -28,42 +40,57 @@ The dashboard allows users to filter data dynamically and explore sales insights
 
 ## Key Performance Indicators (KPI)
 
+The dashboard calculates key business metrics:
+
 * Total Revenue
 * Units Sold
 * Average Discount
 * Total Profit
 * Profit Margin
 
+---
+
 ## Sales Analysis
 
+The dashboard includes several analytical views:
+
 * Revenue by Region
-* Sales by Product Category
+* Revenue by Product Category
 * Revenue by Sales Channel
 * Revenue by Customer Type
 * Top Sales Representatives
 
+---
+
 ## Advanced Analytics
+
+Additional analytical views include:
 
 * Monthly Revenue Trend
 * Revenue Forecast
 * Sales Heatmap (Region vs Product Category)
 
+These visualizations help identify patterns and trends in sales performance.
+
 ---
 
 # 🛠 Technologies Used
+
+The dashboard was built using the following technologies:
 
 * Python
 * Pandas
 * Plotly
 * Streamlit
+* NumPy
 
 ---
 
 # 📂 Dataset
 
-The dataset used in this project was sourced from Kaggle.
+The dataset used in this project was sourced from **Kaggle**.
 
-It contains simulated sales data including:
+It contains simulated sales transaction data including:
 
 * Sale Date
 * Region
@@ -84,19 +111,19 @@ Dataset source: Kaggle.
 
 # ▶️ How to Run the Dashboard
 
-1. Install dependencies
+### 1 Install dependencies
 
 ```bash
-pip install streamlit pandas plotly openpyxl
+pip install streamlit pandas plotly numpy openpyxl
 ```
 
-2. Run the dashboard
+### 2 Run the dashboard
 
 ```bash
 streamlit run sales_dashboard.py
 ```
 
-3. Open in your browser
+### 3 Open in your browser
 
 ```
 http://localhost:8501
@@ -104,14 +131,19 @@ http://localhost:8501
 
 ---
 
-# 📊 Project Structure
+# 📁 Project Structure
 
 ```
-sales-dashboard
+Sales-Analytics-Dashboard
 │
 ├── sales_dashboard.py
 ├── sales_data.xlsx
-└── README.md
+├── requirements.txt
+├── README.md
+│
+└── images
+    ├── dashboard1.png
+    └── dashboard2.png
 ```
 
 ---
@@ -120,10 +152,13 @@ sales-dashboard
 
 This project demonstrates practical skills in:
 
-* Data analysis
-* Business intelligence dashboards
-* Python data visualization
-* Interactive analytics applications
+* data analysis
+* data visualization
+* business intelligence dashboards
+* interactive analytics applications
 
-It is intended as a **portfolio project for Data Analyst / Business Analyst roles**.
+It is designed as a **portfolio project for Data Analyst / Business Analyst roles**.
 
+
+GitHub
+https://github.com/KuzevaStasy
