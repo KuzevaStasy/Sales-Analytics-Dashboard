@@ -36,6 +36,12 @@ Users can dynamically filter the dashboard by region, product category, customer
 
 ---
 
+## 🌐 Live Dashboard
+
+[Open Interactive Dashboard](https://sales-analytics-dashboard-sk.streamlit.app/)
+
+---
+
 # 📈 Dashboard Features
 
 ## Key Performance Indicators (KPI)
